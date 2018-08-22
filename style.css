@@ -215,7 +215,6 @@ padding:2%;
         align-items: flex-start;
         align-content: center;
         border-bottom: .1rem solid #577399;
-        
         }
     .dog__image{
         width:45%;
@@ -245,9 +244,16 @@ padding:2%;
        max-width:1024px;
        margin: 0 auto;
    } */
+   h2{
+       font-size:2.3rem;
+   }
+   .nav__bar{
+       font-weight:bold;
+       font-size:2rem;
+   }
     .profile__picture{
-        width:55%;
-        padding:2rem;
+        width:40%;
+        padding:1rem;
     }
     .picture__profile__container{
         display:flex;
@@ -257,9 +263,10 @@ padding:2%;
         align-items:center;
     }
     .about__me__all{
-    
         width:25%;
         padding:2rem 3rem 2rem 0;
+        margin-left: 2rem;
+        margin-right: 5rem;
     }
     .icon{
         font-size: 2rem;
@@ -271,17 +278,27 @@ padding:2%;
     .social__media {
         height:3rem;
     }
+    .project__header{
+        /* margin-left:50px; */
+        text-align:center;
+    }
+    .projects__container{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+    .site__container__garden{
+        width: 45%;
+    }
+    .site__container__dog{
+        width: 45%;
+    }
     .garden__text__and__pic{
         margin:0;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        align-content: center;
     }
     .garden__image{
-        width:30%;
+        width:70%;
         flex-basis: 1rem auto; 
     }
     .garden__info{
@@ -291,15 +308,11 @@ padding:2%;
         margin-right: auto;
     }
     .dog__text__and__pic{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        align-content: center;
+        margin:0;
+        /* display: block; */
         }
     .dog__image{
-        width:30%;
+        width:70%;
         order:2;
         }  
     .dog__info{
